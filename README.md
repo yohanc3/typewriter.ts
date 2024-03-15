@@ -38,8 +38,7 @@ export default function HelloWorld(){
 ```
 
 ## Result
-https://github.com/yohanc3/typewriter.ts/assets/116668883/3f8e8824-b981-466f-846d-c3420f6364cc
-
+![eg-ezgif com-video-to-gif-converter](https://github.com/yohanc3/typewriter.ts/assets/116668883/0b6c5879-16b4-4136-a698-98f2c9b8a159)
 
 
 ## Parameters

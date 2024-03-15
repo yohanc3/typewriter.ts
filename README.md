@@ -44,5 +44,5 @@ export default function HelloWorld(){
 ## Parameters
 
 - PHRASES: Array of strings
-- LETTER_INTERVAL: Interval between the concatenation of each letter
-- WORD_INTERVAL: Interval between the end of each string and the beginning of the next one
+- LETTER_INTERVAL: Interval between the concatenation of each letter (in miliseconds)
+- WORD_INTERVAL: Interval between the end of each string and the beginning of the next one (in miliseconds)

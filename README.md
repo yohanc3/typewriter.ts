@@ -11,7 +11,7 @@ npm i typewriter-hook
 ```
 
 ## How to use
-```
+``` TypeScript
 import { useTypewriter } from "typewriter-hook"
 
 export default function HelloWorld(){

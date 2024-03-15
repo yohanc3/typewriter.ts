@@ -22,7 +22,6 @@ export default function HelloWorld(){
         "beethoven"
     ]
     
-    
     //optional, default values are 50 and 2000.
     const LETTER_INTERVAL = 50;
     const WORD_INTERVAL = 2000;
@@ -38,7 +37,10 @@ export default function HelloWorld(){
 }
 ```
 
-##
+## Result
+https://github.com/yohanc3/typewriter.ts/assets/116668883/3f8e8824-b981-466f-846d-c3420f6364cc
+
+
 
 ## Parameters
 

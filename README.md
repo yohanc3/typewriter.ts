@@ -26,7 +26,7 @@ export default function HelloWorld(){
     const LETTER_INTERVAL = 50;
     const WORD_INTERVAL = 2000;
     
-    const [ text ] = useTypewriter(PHRASES, LETTER_INTERVAL, WORD_INTERVAL )
+    const [ text ] = useTypewriter(PHRASES, LETTER_INTERVAL, WORD_INTERVAL)
     
     return (
         <main className="text-5xl flex items-center justify-center"> 

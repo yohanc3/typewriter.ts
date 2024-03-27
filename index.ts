@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 
-const useTypewriter = (words: string[], PHRASE_INTERVAL: number,  LETTER_INTERVAL: number = 50) => {
+const useTypewriter = (words: string[], PHRASE_INTERVAL: number, LETTER_INTERVAL?: number => {
+
+  const LETTER_INT = LETTER_INTERVAL || 50;
 
   const [word, setWord] = useState(words[0])
   const [wordIndex, setWordIndex] = useState(0);
@@ -52,7 +54,7 @@ const useTypewriter = (words: string[], PHRASE_INTERVAL: number,  LETTER_INTERVA
 
       interval = setInterval(() => {
         setTextIndex(textIndex + 1);
-      }, LETTER_INTERVAL)
+      }, LETTER_INT)
 
     }
 

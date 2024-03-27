@@ -1,5 +1,5 @@
 {
-  "name": "typewriter-hook",
+  "name": "typewriter.ts",
   "version": "1.0.0",
   "description": "Simple typewriter effect for React and TS",
   "main": "index.ts",
@@ -11,18 +11,21 @@
     "url": "https://github.com/yohanc3/typewriter.ts.git"
   },
   "keywords": [
+    "typewriter",
     "ts",
     "typescript",
     "effect",
-    "react",
-    "react-hook",
-    "hook",
-    "typewriter",
+    "react-typewriter",
     "typewriter-effect",
-    "react-typewriter"
+    "react"
   ],
   "author": "yohanc3",
   "license": "ISC",
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "typescript": "^5"
+  },
   "bugs": {
     "url": "https://github.com/yohanc3/typewriter.ts/issues"
   },
